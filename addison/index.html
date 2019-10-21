@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <meta charset="UTF-8"/>
+        <meta name='viewport'
+      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+        <title>Responsive Design</title>
+    </head>
+    <style>
+      body {
+        background-color: #ddd;
+    }
+    
+    .page {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .section {
+      width: 100%;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .header {
+      background-color: #ffc3c9;
+      font-family: papyrus, fantasy;
+      font-size: 7vw;
+      height: 100px;
+      padding-top: 75px;
+      text-align: center;
+      padding-bottom: 80px;
+    }
+
+    .tab {
+      background-color: #ffc3c9;
+      width: 100%;
+      align-items: center;
+    }
+
+    ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    li {
+            background-color: #ffc3c9;
+            color: grey;
+            text-align: center;
+            padding: 25px;
+            text-decoration: none;
+            font-size: 17px;
+            line-height: 25px;
+            border-radius: 4px;
+            font-family:  Arial, Helvetica, sans-serif;
+          }
+
+          /* Change the background color on mouse-over */
+    li:hover {
+            background-color: #ddd;
+            color: grey;
+          }
+
+    li.active {
+            background-color: grey;
+            color: white;
+            text-decoration: underline;
+          }
+
+    .tab-content {
+      width: 100%;
+    }
+  
+    .content {
+      background-color: #ddd;
+      width:100%;
+      height: auto;
+    }
+    
+    p {
+      padding-top: 100px;
+      padding-bottom: 50px;
+      font-size: 120%;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-align: center;
+      max-width: 60%;
+    }
+ 
+    img {
+      height: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: auto;
+    }
+    
+    .feature-1 {
+      background-color: #ddd;
+      width:100%;
+      height: 860px;;
+    }
+      
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      }
+
+    /* Mobile Styles */
+    @media only screen and (max-width: 400px) {
+      body {
+        background-color: #ddd; /* Red */
+      }
+      }
+    }
+
+    /* Tablet Styles */
+    @media only screen and (min-width: 401px) and (max-width: 960px) {
+      .sign-up,
+      .feature-1 {
+        width: 50%;
+    }
+
+    /* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .page {
+    width: 960px;
+    margin: 0 auto;
+  }
+  .header {
+    height: 400px;
+  }
+  .sign-up {
+  height: 200px;
+  order: 1;
+}
+.content {
+  order: 2;
+}
+}
+    }
+  
+    </style>
+    <body>
+        <div class='page'>
+            <div class='section header'>
+              Addison Van Zandbergen
+            </div>
+
+            <div class='tab'>
+              <ul class="nav nav-pills nav-justified">
+              <li><a href="index.html" style="color: grey;">Home</a></li>
+              <li><a href="portfolio.html" style="color: grey;">Portfolio</a></li>
+              <li><a href="about.html" style="color: grey;">About</a></li>
+              <li><a href="blog.html" style="color: grey;">Blog</a></li>
+              <li><a href="contact.html" style="color: grey;">Contact</a></li>
+            </ul>
+            </div>
+
+            <div class='section content'>
+                <p>Welcome! My name is Addison Van Zandbergen. I am a geographer, website developer and novice logo designer in central Oklahoma. 
+                    I am glad you stopped by! 
+                    View my portfolio, learn a little more about me and get in touch with any questions or comments!</p>
+            </div>
+            <div class="feature-1">
+              <img src="images\transp_logo.png">
+            </div>
+             
+    </body>
+</html>
