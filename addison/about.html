@@ -3,51 +3,50 @@
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <meta charset="UTF-8"/>
-        <meta name='viewport'
-      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
-        <title>Responsive Design</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+        <title>Portfolio</title>
     </head>
     <style>
         body {
-        background-color: #ddd;
-    }
-    
-    .page {
-      display: flex;
-      flex-wrap: wrap;
-      background-color: #ddd;
-    }
-    
-    .section {
-      width: 100%;
-      height: 300px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    
-    .header {
-      background-color: #ffc3c9;
-      font-family: papyrus, fantasy;
-      font-size: 7vw;
-      height: 100px;
-      padding-top: 75px;
-      text-align: center;
-      padding-bottom: 80px;
-    }
+            background-color: #ddd;
+        }
+      
+        .page {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: #ddd;
+        }
+      
+        .section {
+            width: 100%;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+      
+        .header {
+            background-color: #ffc3c9;
+            font-family: papyrus, fantasy;
+            font-size: 7vw;
+            height: 100px;
+            padding-top: 75px;
+            text-align: center;
+            padding-bottom: 80px;
+        }
 
-    .tab {
-      background-color: #ffc3c9;
-      width: 100%;
-      align-items: center;
-    }
+        .tab {
+            background-color: #ffc3c9;
+            width: 100%;
+            align-items: center;
+        }
 
-    ul {
-      display: flex;
-      justify-content: center;
-    }
+        ul {
+            display: flex;
+            justify-content: center;
+        }
 
-    li {
+        li {
             background-color: #ffc3c9;
             color: grey;
             text-align: center;
@@ -57,112 +56,114 @@
             line-height: 25px;
             border-radius: 4px;
             font-family:  Arial, Helvetica, sans-serif;
-          }
+        }
 
-          /* Change the background color on mouse-over */
-    li:hover {
+        /* Change the background color on mouse-over */
+        li:hover {
             background-color: #ddd;
             color: grey;
-          }
+        }
 
-    li.active {
+        li.active {
             background-color: grey;
             color: white;
             text-decoration: underline;
-          }
+        }
 
-    .tab-content {
-      width: 100%;
-    }
-            
-    .about {
-        position: relative;
-        float: left;
-        left: 20%;
-        width: 60%;
-        text-align: center;
-        padding-top: 2%;
-    }
+        .tab-content {
+            width: 100%;
+        }
+              
+        .about {
+            position: relative;
+            float: left;
+            padding-left: 2%;
+            width: 40%;
+            text-align: left;
+            padding-top: 2%;
+        }
 
-    h1 {
-      color: black;
-      padding-top: 5%;
-      font-size: 50px;
-      font-family: papyrus, fantasy;
-    }
+        h1 {
+            color: black;
+            padding-top: 5%;
+            font-size: 50px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
 
-     p {
-      font-size: 120%;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      text-align: center;
-      max-width: 60%;
+        p {
+            font-size: 120%;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+            max-width: 60%;
+        }
 
-    /* Mobile Styles */
-    @media only screen and (max-width: 400px) {
-      body {
-        background-color: #ddd; /* Red */
-      }
-      }
-    }
+        /* Mobile Styles */
+        @media only screen and (max-width: 400px) {
+            body {
+                background-color: #ddd; /* Red */
+                }
+            }
+        }
 
-    /* Tablet Styles */
-    @media only screen and (min-width: 401px) and (max-width: 960px) {
-      .sign-up,
-      .feature-1 {
-        width: 50%;
-    }
+        /* Tablet Styles */
+        @media only screen and (min-width: 401px) and (max-width: 960px) {
+            .sign-up,
+            .feature-1 {
+                width: 50%;
+                }
+            }
+        }
 
-    /* Desktop Styles */
-@media only screen and (min-width: 961px) {
-  .page {
-    width: 960px;
-    margin: 0 auto;
-  }
-  .header {
-    height: 400px;
-  }
-  .sign-up {
-  height: 200px;
-  order: 1;
-}
-.content {
-  order: 2;
-}
-}
-    }
-  
+        /* Desktop Styles */
+        @media only screen and (min-width: 961px) {
+            .page {
+                width: 960px;
+                margin: 0 auto;
+            }
+            .header {
+                height: 400px;
+            }
+            .sign-up {
+                height: 200px;
+                order: 1;
+            }
+            .content {
+                order: 2;
+                }
+            }
+        }
     </style>
     <body>
         <div class='page'>
             <div class='section header'>
-              Addison Van Zandbergen
-            </div>
+                 Addison Van Zandbergen
+             </div>
 
             <div class='tab'>
-              <ul class="nav nav-pills nav-justified">
-              <li><a href="index.html" style="color: grey;">Home</a></li>
-              <li><a href="portfolio.html" style="color: grey;">Portfolio</a></li>
-              <li><a href="about.html" style="color: grey;">About</a></li>
-              <li><a href="contact.html" style="color: grey;">Contact</a></li>
-            </ul>
+                <ul class="nav nav-pills nav-justified">
+                    <li><a href="index.html" style="color: grey;">Home</a></li>
+                    <li><a href="portfolio.html" style="color: grey;">Portfolio</a></li>
+                    <li><a href="about.html" style="color: grey;">About</a></li>
+                    <li><a href="contact.html" style="color: grey;">Contact</a></li>
+                </ul>
             </div>
 
             <div class='about'>
                 <h1>About Me</h1>
                 <p><div>My name is Addison Gwen Van Zandbergen. 
-                    I was born in Knoxville, TN on April 30, 1998. 
-                    I moved to Oklahoma when I was fairly young, about 5 years old, and have lived there ever since.
-                    I attended Durant High School and went on to pursue two Bachelor's Degrees, one in Geography and Global Studies and one in Spanish, at Oklahoma State University in Stillwater, OK.
-                    During this time, I became a member of multiple, prestigious honor societies, was an active member in the OSU Dance Company, obtained a dance and a philosophy minor and participated in the Geography Undergraduate Mentors Program.
-                    As a part of this mentorship, I attended the SWAAG meeting in October, 2019 and placed third overall in the Undergraduate Poster Competition with my research on the possibility of an ecological reserve in Mexico City and former Lake Texcoco.
-                    I am in the processs of applying to graduate programs across the United States.</div>
+                        I was born in Kingsport, TN on April 30, 1998. 
+                        I moved to Oklahoma when I was fairly young, about 5 years old, and have lived there ever since.
+                        I attended Durant High School and went on to pursue two Bachelor's Degrees, one in Geography and Global Studies and one in Spanish, at Oklahoma State University in Stillwater, OK.
+                        During this time, I became a member of multiple, prestigious honor societies, was an active member in the OSU Dance Company, obtained a dance and a philosophy minor and participated in the Geography Undergraduate Mentors Program.
+                        As a part of this mentorship, I attended the SWAAG meeting in October, 2019 and placed third overall in the Undergraduate Poster Competition with my research on the possibility of an ecological reserve in Mexico City and former Lake Texcoco.
+                        I am in the processs of applying to graduate programs across the United States.</div>
 
                     <div>While I am a full-time student at OSU, I also work as a GIS intern in the Maps and Spatial Data Department of the university.
-                    I also teach group fitness classes (Yoga, POP Pilates, and Spin) at the Colvin Recreation Center on Campus and teach aerial yoga at Empower Fit Studios.</div>
+                        I also teach group fitness classes (Yoga, POP Pilates, and Spin) at the Colvin Recreation Center on Campus and teach aerial yoga at Empower Fit Studios.</div>
 
                     <div>Currently, I am engaged to Clayton Headrick, set to get married in June 2020 and have an adorable pet guinea pig named Speckles.</div>
                 </p>
             </div>
-             
+        </div> 
     </body>
 </html>
