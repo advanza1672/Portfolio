@@ -77,10 +77,9 @@
         .about {
             position: relative;
             float: left;
-            padding-left: 2%;
-            width: 40%;
+            padding: 2%;
             text-align: left;
-            padding-top: 2%;
+            width: 50%;
         }
 
         h1 {
@@ -94,28 +93,33 @@
             font-size: 120%;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             text-align: center;
-            max-width: 60%;
         }
 
         /* Mobile Styles */
-        @media only screen and (max-width: 400px) {
+        @media only screen and (max-width: 415px) {
             body {
                 background-color: #ddd; /* Red */
+                }
+            .about {
+                width: 90%;
                 }
             }
         }
 
         /* Tablet Styles */
-        @media only screen and (min-width: 401px) and (max-width: 960px) {
+        @media only screen and (min-width: 416px) and (max-width: 1024px) {
             .sign-up,
             .feature-1 {
                 width: 50%;
+                }
+            p {
+                width: 90%;
                 }
             }
         }
 
         /* Desktop Styles */
-        @media only screen and (min-width: 961px) {
+        @media only screen and (min-width: 1025px) {
             .page {
                 width: 960px;
                 margin: 0 auto;
