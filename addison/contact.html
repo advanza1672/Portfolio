@@ -103,39 +103,46 @@
  
         /* Mobile Styles */
         @media only screen and (max-width: 400px) {
-              body {
-                  background-color: #ddd; /* Red */
-                  }
-              }
-          }
+            body {
+                background-color: #ddd; /* Red */
+                }
+            .header {
+                font-size: 40px;
+                }
+            }
+        }
 
-          /* Tablet Styles */
-          @media only screen and (min-width: 401px) and (max-width: 960px) {
-              .sign-up,
-              .feature-1 {
-                  width: 50%;
-                  }
-              }
-          }
+        /* Tablet Styles */
+        @media only screen and (min-width: 401px) and (max-width: 960px) {
+            .sign-up,
+            .feature-1 {
+                width: 50%;
+                }
+            .header {
+                font-size: 125px;
+                }
+            }
+        }
 
-          /* Desktop Styles */
-          @media only screen and (min-width: 961px) {
-              .page {
-                  width: 960px;
-                  margin: 0 auto;
-              }
-              .header {
-                  height: 400px;
-              }
-              .sign-up {
-                  height: 200px;
-                  order: 1;
-              }
-              .content {
-                  order: 2;
-                  }
-              }
-          }
+        /* Desktop Styles */
+        @media only screen and (min-width: 961px) {
+            .page {
+                width: 960px;
+                margin: 0 auto;
+            }
+            .header {
+                height: 400px;
+                font-size: 150px;
+            }
+            .sign-up {
+                height: 200px;
+                order: 1;
+            }
+            .content {
+                order: 2;
+                }
+            }
+        }
     </style>
     <body>
         <div class='page'>
