@@ -87,7 +87,7 @@
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             text-align: center;
         }
-        /* Mobile Styles */
+/* Mobile Styles */
         @media only screen and (max-width: 400px) {
             body {
                 background-color: #ddd; /* Red */
@@ -95,18 +95,21 @@
             .header {
                 font-size: 40px;
                 }
+            .title {
+                width: 90%!important;
             }
+        }
         }
         /* Tablet Styles */
         @media only screen and (min-width: 401px) and (max-width: 960px) {
             .sign-up,
-            .feature-1 {
-                width: 50%;
-                }
             .header {
                 font-size: 125px;
                 }
+            .title {
+                width: 75%!important;
             }
+        }
         }
         /* Desktop Styles */
         @media only screen and (min-width: 961px) {
@@ -125,7 +128,9 @@
             .content {
                 order: 2;
                 }
-            }
+            .title {
+                width: 50%!important;
+        }
         }
     </style>
     <body>
